@@ -23,9 +23,9 @@ public class Mailer {
     public static void send(String to, String subject, String msg) {
 
 // Your Gmail Username Goes Here
-        final String user = "lorlahstrings@gmail.com";
+        final String user = "";
 //Your Gmail Password Goes Here
-        final String pass = "damilolasannipelumi_12345";
+        final String pass = "";
 
         Properties props = new Properties();
         props.put("mail.smtp.host", "smtp.gmail.com");
